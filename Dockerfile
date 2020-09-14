@@ -10,6 +10,6 @@ VOLUME /tmp
 
 ARG JAR_FILE=target/*.jar
 
-COPY ${JAR_FILE} com-bank-core-service-CustomerCreditTransferInitiation.jar
+COPY ${JAR_FILE} com-bank-core-service-customercredittransferinitiation.jar
 
-ENTRYPOINT ["sh", "-c", "java ${JAVA_OPTS} -jar /com-bank-core-service-CustomerCreditTransferInitiation.jar"]
+ENTRYPOINT ["sh", "-c", "java ${JAVA_OPTS} -jar /com-bank-core-service-customercredittransferinitiation.jar"]

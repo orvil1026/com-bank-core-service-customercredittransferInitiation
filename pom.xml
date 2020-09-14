@@ -4,9 +4,9 @@
 	<modelVersion>4.0.0</modelVersion>
 	
 	<groupId>com-bank-core-service</groupId>
-	<artifactId>com-bank-core-service-CustomerCreditTransferInitiation</artifactId>
+	<artifactId>com-bank-core-service-customercredittransferinitiation</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
-	<name>com-bank-core-service-CustomerCreditTransferInitiation</name>
+	<name>com-bank-core-service-customercredittransferinitiation</name>
 	<description>payment initiation service</description>
 	<!-- Inherit defaults from Spring Boot -->
 	<parent>

@@ -13,11 +13,10 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 
 @SpringBootApplication
-@ComponentScan(basePackages = {"com.tutorial.controller","com.tutorial.exception"})
-@EnableJpaRepositories(basePackages = {"com.tutorial.repository"})
-@EntityScan(basePackages = {"com.tutorial.beans"})
+@ComponentScan(basePackages = {"com.bank.core.service.controller","com.bank.core.service.exception"})
+@EnableJpaRepositories(basePackages = {"com.bank.core.service.repository"})
+@EntityScan(basePackages = {"com.bank.core.service.beans","com.bank.core.beans.iso20022.CustomerCreditTransferInitiationV10"})
 @EnableTransactionManagement
-
 public class Application {
 	private static final Logger logger = LogManager.getLogger(Application.class.getName());
 
