@@ -1,4 +1,4 @@
-package com.tutorial.launcher;
+package com.bank.core.service.launcher;
 
 import javax.sql.DataSource;
 

@@ -1,4 +1,4 @@
-package com.tutorial.exception;
+package com.bank.core.service.exception;
 
 import org.springframework.web.bind.annotation.ControllerAdvice;
 
